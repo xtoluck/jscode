@@ -1,0 +1,45 @@
+div.title button {
+    display: inline-block;
+    text-align: center;
+    background: brown;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+div.title h3 {
+    color: brown;
+
+}
+
+#result {
+    /* display: inline-block; */
+    text-align: center;
+    /* width: 20%; */
+    height: 20px;
+}
+
+hr {
+    border: solid 1px;
+    color: brown;
+}
+
+#in1,
+#in2 {
+    height: 30px;
+    width: 50px;
+}
+
+.bodyFrame {
+    border: solid 2px;
+    border-color: brown;
+    width: 20%;
+    padding: 30px;
+    display: inline-block;
+    align-items: center;
+}
+
+.showhide {
+    text-align: center;
+}

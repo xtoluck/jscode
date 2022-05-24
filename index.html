@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsCalculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+
+</head>
+
+<body>
+    <div class="bodyFrame">
+        <div class="showhide">
+            <img src="calculator.png" alt="" id="calc"><br>
+            <button onclick="showImg()">Show</button>
+            <button onclick="hideImg()">Hide</button>
+        </div>
+        <br>
+        <div id="result" class="result">
+
+            <input type="text" value="Result">
+        </div>
+        <div class="title" align="center" ;>
+            <hr>
+            <h3>Simple Calculator</h3>
+            <input type="text" id="in1">
+            <input type="text" id="in2">
+            <br><br>
+            <button onclick="do_add()">Add +</button>
+            <button onclick="do_minus()">Subtract -</button><br><br>
+            <button onclick="do_divide()">Divide /</button>
+        </div>
+    </div>
+</body>
+<script src="calculator.js"></script>
+
+</html>
